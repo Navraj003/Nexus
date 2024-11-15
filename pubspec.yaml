@@ -1,0 +1,191 @@
+name: nexus_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.2.0
+  image_picker: ^1.1.2
+  path: ^1.9.0
+  cloudinary_flutter: ^1.3.0
+  cloudinary_url_gen: ^1.0.0
+  cloudinary: ^1.2.0
+  cloudinary_sdk: ^5.0.0+1
+  uuid: ^4.5.1
+  flutter_staggered_grid_view: ^0.7.0
+  staggered_grid_view_flutter: ^0.0.4
+  flutter_swiper_null_safety: ^1.0.2
+  provider: ^6.1.2
+  collection: ^1.18.0
+  badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/assets/Screenshot 2024-10-26 204123.png
+    - lib/assets/images/image-removebg-preview (4).png
+    - lib/assets/clothes/men0.jpg
+    - lib/assets/images/3d-shopping-online-store-for-sale-mobile-e-commerce-3d-pink-pastel-background-shop-online-on-mobile-app-24-hours-shopping-cart-credit-card-minimal-shopping-online-store-device-3d-rendering-vector.jpg
+    - lib/assets/clothes/men1.jpg
+    - lib/assets/clothes/men2.jpg
+    - lib/assets/clothes/men3.jpg
+    - lib/assets/clothes/men4.jpg
+    - lib/assets/clothes/men6.jpg
+    - lib/assets/clothes/men7.jpg
+    - lib/assets/clothes/women0.jpg
+    - lib/assets/clothes/women1.jpg
+    - lib/assets/clothes/women2.jpg
+    - lib/assets/clothes/women3.jpg
+    - lib/assets/clothes/women4.jpg
+    - lib/assets/clothes/women5.jpg
+    - lib/assets/clothes/women6.jpg
+    - lib/assets/clothes/women7.jpg
+    - lib/assets/clothes/women8.jpg
+    - lib/assets/clothes/shoes0.jpg
+    - lib/assets/clothes/shoes1.jpg
+    - lib/assets/clothes/shoes2.jpg
+    - lib/assets/clothes/shoes3.jpg
+    - lib/assets/clothes/shoes4.jpg
+    - lib/assets/clothes/shoes5.jpg
+    - lib/assets/clothes/shoes6.jpg
+    - lib/assets/clothes/shoes7.jpg
+    - lib/assets/clothes/shoes8.jpg
+    - lib/assets/clothes/shoes9.jpg
+    - lib/assets/clothes/shoes10.jpg
+    - lib/assets/clothes/shoes11.jpg
+    - lib/assets/clothes/shoes12.jpg
+    - lib/assets/electronics/electronics0.jpg
+    - lib/assets/electronics/electronics1.jpg
+    - lib/assets/electronics/electronics2.jpg
+    - lib/assets/electronics/electronics3.jpg
+    - lib/assets/electronics/electronics4.jpg
+    - lib/assets/electronics/electronics5.jpg
+    - lib/assets/electronics/electronics6.jpg
+    - lib/assets/electronics/electronics7.jpg
+    - lib/assets/electronics/electronics8.jpg
+    - lib/assets/electronics/electronics9.jpg
+    - lib/assets/electronics/electronics10.jpg
+    - lib/assets/electronics/electronics11.jpg
+    - lib/assets/electronics/electronics12.jpg
+    - lib/assets/accessories/accessories0.jpg
+    - lib/assets/accessories/accessories1.jpg
+    - lib/assets/accessories/accessories2.jpg
+    - lib/assets/accessories/accessories3.jpg
+    - lib/assets/accessories/accessories4.jpg
+    - lib/assets/accessories/accessories5.jpg
+    - lib/assets/accessories/accessories6.jpg
+    - lib/assets/accessories/accessories7.jpg
+    - lib/assets/accessories/accessories8.jpg
+    - lib/assets/accessories/accessories9.jpg
+    - lib/assets/accessories/bags0.jpg
+    - lib/assets/accessories/bags1.jpg
+    - lib/assets/accessories/bags2.jpg
+    - lib/assets/accessories/bags3.jpg
+    - lib/assets/accessories/bags4.jpg
+    - lib/assets/accessories/bags5.jpg
+    - lib/assets/beauty/beauty0.jpg
+    - lib/assets/beauty/beauty1.jpg
+    - lib/assets/beauty/beauty2.jpg
+    - lib/assets/beauty/beauty3.jpg
+    - lib/assets/beauty/beauty4.jpg
+    - lib/assets/guest.jpg
+    - lib/assets/[removal.ai]_d1e6fed9-81ab-42b3-9a18-31f377462c73_cashier-worker-with-coupon-credit-card-for-payment-symbol-concept-in-cartoon-illustration-vector.png
+    - lib/assets/others-icon-13.jpg
+    - lib/assets/furnitureandbedding/brise_8410268-b1.jpg
+    - lib/assets/furnitureandbedding/vase_PNG85.png
+    - lib/assets/furnitureandbedding/Decorative-Light-PNG-Transparent-Image.png
+    - lib/assets/furnitureandbedding/f7e06d86-be89-4cb2-8696-388569001fb7.png
+    - lib/assets/furnitureandbedding/free-png-download-transparent-bed-sheet-image-28468.png
+    - lib/assets/pngimg.com - book_PNG51074 (1).png
+    - lib/assets/th (1).jpg
+    - lib/assets/Scientific-Calculator-Download-PNG-Image.png
+    - lib/assets/Carson-Dunlop-Home-Reference-Soft-Cover.png
+    - lib/assets/notebook_PNG19218.png
+    - lib/assets/Lamp-Transparent-Free-PNG.png
+    - lib/assets/pngtree-binder-business-shelf-file-png-image_6446253.jpg
+    - lib/assets/furnitureandbedding/th (2).jpg
+    - lib/assets/furnitureandbedding/vase_PNG85.png
+    
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
