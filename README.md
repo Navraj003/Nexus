@@ -1,16 +1,42 @@
-# nexus_app
+# ♻Nexus — Campus Reusables App
 
-A new Flutter project.
+[![Made with Flutter](https://img.shields.io/badge/Made%20with-Flutter-blue)](https://flutter.dev/)
+[![Firebase Backend](https://img.shields.io/badge/Backend-Firebase-yellow)](https://firebase.google.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
-## Getting Started
+> Nexus is a Flutter-based mobile application that enables students, faculty, and staff to **buy, sell, and donate reusable or unused items within the campus**. The app promotes sustainability, encourages resource sharing, and supports a circular economy model within educational institutions.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔄 **Buy, Sell, or Donate** items such as books, electronics, furniture, clothes, and more.
+- 🧍‍♂️🧍‍♀️ Role-based access for **students, faculty, and staff**.
+- 🛍️ **Personal business showcase** for students running side hustles or small ventures.
+- 📱 Modern, responsive **Flutter UI** with intuitive navigation.
+- 🔥 **Firebase Integration** for authentication, database, and real-time updates.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+##  Purpose
+
+Nexus was created with the goal of:
+- Reducing campus waste by giving unused items a second life.
+- Supporting students with limited resources.
+- Providing a platform for entrepreneurial students to market their small businesses.
+- Building a community of environmentally conscious individuals.
+
+---
+
+
+## ⚙️ Tech Stack
+
+| Tech             | Purpose                             |
+|------------------|-------------------------------------|
+| Flutter          | Cross-platform mobile development   |
+| Firebase Auth    | User authentication (email, role)   |
+| Firebase Firestore | Real-time database for item listings |
+| Cloudstore| Media/image storage for items       |
+
+---
+
